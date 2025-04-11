@@ -3,25 +3,15 @@ import myData from './imData.json';
 import StateCard from "./stateCard";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { BrowserRouter as Router, Routes, Route,Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route,Link, Navigate, useNavigate } from "react-router-dom";
 
 
 export const Netflix = () => {
   const [filteredData, setFilteredData] = useState(myData);
 
-const clonePhotos =[
-  "https://th.bing.com/th/id/OIP.HW16VZ-XcOWza9Eui7LK5AAAAA?rs=1&pid=ImgDetMain",
-  "https://th.bing.com/th/id/OIP.MK0Gqwk_Nrxx-Db2RT5YUwAAAA?rs=1&pid=ImgDetMain",
-  "https://th.bing.com/th/id/OIP.qM4ifJoVRPynModhzFdwUgAAAA?rs=1&pid=ImgDetMain",
-  "https://www.scrolldroll.com/wp-content/uploads/2020/01/Satte-Pe-Satta-Must-Watch-Bollywood-Comedy-Movies.jpg",
-  "https://www.scrolldroll.com/wp-content/uploads/2020/01/All-The-Best-Must-Watch-Bollywood-Comedy-Movies.jpg",
-  "https://www.reviewsxp.com/blog/wp-content/uploads/2018/11/Badrinath-Ki-Dulhania-2-768x1195.jpg",
-  "https://www.scrolldroll.com/wp-content/uploads/2020/01/Hulchul-Must-Watch-Bollywood-Comedy-Movies-768x1109.jpg",
-  "https://th.bing.com/th/id/R.f6cd7872a05e57b2f43ae05cfdd3045c?rik=zHzujt8lVl3Nug&riu=http%3a%2f%2fwww.scrolldroll.com%2fwp-content%2fuploads%2f2020%2f01%2fPhas-Gaye-Re-Obama-Must-Watch-Bollywood-Comedy-Movies.jpg&ehk=Ah0XPc1qw12TcmzPFnodQj%2fZv81rnF9WgI8xIeUHpo8%3d&risl=&pid=ImgRaw&r=0",
-  "https://www.pinkvilla.com/images/2022-10/1665568926_do-dooni-char.jpg",
 
 
-]
+
 
   
   const ActionClick = () => {
@@ -37,6 +27,52 @@ const clonePhotos =[
   const HomeClick = () => {
     setFilteredData(myData);
   };
+  const BasicForm=()=>{
+    const[name,setName]=useState('');
+    const[age,setAge]=useState('');
+    const navigate = useNavigate();
+
+    const formSubmit=(k)=>{
+      k.preventDefault();
+      if(name&&age) {
+        console.log(`${name}:${age}`)
+        alert(`Hey${name} Welcome  `)
+        navigate("/home");
+      }
+      else{
+        alert('Must fill out form to proceed')
+      }
+    };
+
+  
+
+  return(
+    <>
+    <h>Please fill form</h>
+    <form onSubmit={formSubmit}>
+      <label>
+        Name:
+        <input
+        type = "text"
+        value ={name}
+        onChange={(k)=>setName(k.target.value)}
+        />
+      </label>
+
+      <label>
+        Age:
+        <input 
+        type ="number"
+        value={age}
+        onChange={(k)=>setAge(k.target.value)}
+        />
+      </label>
+      <br/>
+      <button type ="submit">Next</button>
+    </form>
+    </>
+  )
+}
 
   return (
     <>
@@ -57,18 +93,7 @@ const clonePhotos =[
 
           <Route
   path="/bookmyshow"
-  element={
-    <div style={{ padding: "20px", display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
-      {clonePhotos.map((url, index) => (
-        <img
-          key={index}
-          src={url}
-          alt={`BookMyshow Phot ${index + 1}`}
-          style={{ width: "200px", height: "300px", margin: "10px", borderRadius: "8px" }}
-        />
-      ))}
-    </div>
-  }
+  element={<BasicForm/>}
 />
             
            

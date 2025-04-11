@@ -1,0 +1,156 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist",sans-serif;
+  background-color:whitesmoke;
+}
+
+html{
+  font-size: 32.5;
+}
+
+p,li,a,label{
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  color:var(--para-color);
+  line-height:1.5;
+  font-weight: 100;
+}
+li {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+.container{
+  
+  margin:0 auto ;
+  padding: 9.6rem 2.4rem;
+  width: fit-content;
+  height: fit-content;
+}
+
+.grid{
+  display: grid;
+  gap:9.6rem;
+}
+
+.grid-two-cols{
+  grid-template-columns: repeat(2,1fr);
+}
+
+.grid-three--cols{
+  grid-template-columns: repeat(3,1fr);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+   color:var(--heading-color);
+   font-family: "Poppins",sans-serif;
+   font-weight: 500;
+}
+
+h1{
+  font-size: 3.2rem;
+  border: none;
+  border-radius: 8px;
+  width: fit-content;
+  animation: fade in 1.5s ease-in-out,zoom-in 1s ease-in-out;
+  background-color: white;
+  color: #ffffff;
+}
+
+:root{
+  --main-color:blue;
+  --supporting-color:gray;
+  --font-color:black;
+  --heading-color:black;
+  --h-color:purple;
+  --white-color:white;
+  --test:black;
+  --para-color:gray;
+  --btn-box-shadow:rgba(100,100,111,0.2) 0px 7px 29px 0px;
+
+}
+
+.my-image{
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+  width: 70%;
+  height: 70%;
+}
+
+.my-image:hover {
+  transform: scale(1.05);
+}
+.card-heading {
+  position: absolute;
+  top: 20px;
+  left:50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+ 
+}
+
+.btn{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: aliceblue;
+  /* background-color:black; */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3 ease, transform 0.2 ease;
+  box-shadow: none 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card{
+  box-shadow: rgba(0,0,0,0.05) 0px 6px 24px 0px,
+  rgba(0,0,0,0.08) 0px 0px 0px 1px;
+}
+
+img{
+  width: 75%;
+}
+/* .movie{
+  padding: 3.2rem 1.2rem;
+} */
+
+.super-hit{
+  background-color: aquamarine;
+}
+.average-hit{
+  background-color: yellow;
+  
+}
+
+.rating{
+  padding: 0.3rem;
+  color: #000;
+  margin-left: 1.2rem;
+  border-radius: 100rem;
+  -webkit-border-radius:100rem ;
+  -moz-border-radius: 100rem;
+  -ms-border-radius: 100rem;
+  -o-border-radius:100rem ;
+}
+
+.main-cs {
+  margin-left: 20px;
+  margin-bottom:50px ;
+  margin-top: 14px;
+}
+

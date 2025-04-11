@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Baby John", 
+        "id" : "baby",
+    "img": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/baby-john-et00386190-1733985497.jpg",
+    "rating": "5.9",
+    "summary": "Baby John is a 2024 Indian Hindi-language action thriller film directed by Kalees. It serves as a remake of Atlee's 2016 Tamil film ",
+    "watch":"https://in.bookmyshow.com/kolkata/movies/baby-john/ET00386190"
+  },
+
+{ "name": "Singham ",
+"id" :"singham",
+"img": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/singham-et00007111-1729150126.jpg",
+"rating": "7",
+"summary": "Bhool Bhulaiyaa is a 2007 Indian Hindi-language psychological comedy horror film directed by Priyadarshan and produced by T-Series,",
+"watch":"https://in.bookmyshow.com/kolkata/movies/singham-/ET00007111"
+},
+
+{"name": "Kill",
+"id" :"kill",
+"img": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/kill-et00374797-1718179453.jpg",
+"rating": "8.4",
+"summary": "An action-packed thriller, releasing in 2023 It serves as a remake It serves as a remake of an english movie.",
+"watch":"https://in.bookmyshow.com/kolkata/movies/kill/ET00374797"
+},
+{
+    "name": "Aashiqui 3",
+    "id" :"ashiqui",
+"img": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/aashiqui-3-et00339561-1662635174.jpg",
+"rating": "5.8",
+"summary": "A romantic musical starring Kartik Aaryan, releasing on October",
+"watch":"https://in.bookmyshow.com/kolkata/movies/aashiqui-3/ET00339561?type=coming-soon"
+},
+
+
+{
+"name": "Chavva",
+"id" :"chavva",
+"img": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/chhaava-et00408691-1737623374.jpg",
+"rating": "9.1",
+"summary": "After Chhatrapati Shivaji Maharaj`s death, the Mughals aim to expand into the Deccan",
+"watch":"https://in.bookmyshow.com/kolkata/movies/bhool-chuk-maaf/ET00434401?type=coming-soon"
+
+},
+
+
+
+{
+    "name": "Param Sundari",
+    "id" :"param",
+    "img": "https://imgs.search.brave.com/5FBHIK9EV4mLw9z_kBuqV9EhWs6FeyGGWoG2XiyIul0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHNjZG4xLnBheXRt/LmNvbS9pbWFnZXMv/Y2luZW1hL1BhcmFt/Mi0tR2FsbGVyeS0z/ZWQ4ZWQ5MC1jMWRh/LTExZWYtOWViZi1h/OTY2NTU5Yzc2NmIu/anBnP2Zvcm1hdD13/ZWJw",
+    "rating": "7",
+    "summary": "A romantic comedy starring Sidharth Malhotra, releasing on",
+    "watch":"https://in.bookmyshow.com/kolkata/movies/param-sundari/ET00426409?type=coming-soon"
+},
+{ "name": "Sunny Sanskari Ki Tulsi Kumari",
+"id" :"tulsi",
+"img": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/sunny-sanskari-ki-tulsi-kumari-et00388406-1708603168.jpg",
+"rating": "3.1",
+"summary": "A romantic comedy starring Varun Dhawan, releasing on Septembe",
+"watch":"https://in.bookmyshow.com/kolkata/movies/sunny-sanskari-ki-tulsi-kumari/ET00388406?type=coming-soon"
+},
+
+{ "name": "Kesari Chapter 2",
+"id" :"kesari",
+"img": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/kesari-chapter-2-the-untold-story-of-jallianwala-bagh-et00439158-1742797907.jpg",
+"rating": "9.9",
+"summary": "A historical drama starring Akshay Kumar Kesari Chapter 2: The Untold Story of Jallianwala Bagh",
+"watch":"https://in.bookmyshow.com/kolkata/movies/kesari-chapter-2-the-untold-story-of-jallianwala-bagh/ET00439158?type=coming-soon"},
+
+{    "name": "Jaat",
+"id" :"jatt",
+"img": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/jaat-et00416952-1733732596.jpg",
+"rating": "9",
+"summary": "Jaat is an upcoming Indian Hindi-language action thriller film written and directed . ",
+"watch":"https://in.bookmyshow.com/kolkata/movies/jaat/ET00416952" }
+    
+]

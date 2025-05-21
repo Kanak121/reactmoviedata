@@ -1,8 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css'; 
  import {Netflix}  from "./NetFlix";
-import React from "react"
-// import Tswitch from './Tswitch';
-//  import IncrementBu from './IncrementBu';
+// import Practice from './Practice';
 
 
 
@@ -15,8 +13,8 @@ export const App =()=>{
   <h1 className='card-heading'>Bookmyshow</h1>
 </section> */}
 <Netflix/>  
-{/* <IncrementBu/> */}
-{/* <Tswitch/> */}
+
+{/* <Practice/> */}
 
 
 

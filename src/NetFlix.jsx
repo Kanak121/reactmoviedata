@@ -3,7 +3,7 @@ import myData from './imData.json';
 import StateCard from "./stateCard";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { BrowserRouter as Router, Routes, Route,Link, Navigate, useNavigate } from "react-router-dom";
+ import { BrowserRouter as Router, Routes, Route,Link, useNavigate } from "react-router-dom";
 
 
 export const Netflix = () => {
@@ -48,7 +48,7 @@ export const Netflix = () => {
 
   return(
     <>
-    <h>Please fill form</h>
+    <h1>Please fill form</h1>
     <form onSubmit={formSubmit}>
       <label>
         Name:

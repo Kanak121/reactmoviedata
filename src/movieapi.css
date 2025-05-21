@@ -1,0 +1,49 @@
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card-item {
+    width: calc(23% - 20px); /* Keeps cards wide but not huge */
+    height: auto; /* Adjust based on content */
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card-img {
+    width: 100%;
+    height: 250px; /* Keeps it long but proportionate */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 1024px) {
+    .card-item {
+        width: calc(31% - 20px); 
+    }
+}
+
+@media (max-width: 768px) {
+    .card-item {
+        width: calc(48% - 20px); }
+}
+
+@media (max-width: 480px) {
+    .card-item {
+        width: calc(100% - 20px); 
+    }
+}
